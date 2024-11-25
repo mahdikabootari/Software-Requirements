@@ -1,0 +1,68 @@
+# Functional Non-Functional Classification Dataset (FNFC)
+
+## Overview  
+The **Functional Non-Functional Classification Dataset (FNFC)** contains 7,060 software requirements categorized into 14 distinct classes. These classes represent various functional and non-functional requirements, annotated by five experienced software engineering experts to ensure high-quality labeling.
+
+---
+
+## Dataset Details  
+- **Total Records:** 7,060  
+- **Classes:**  
+  - Availability (A)  
+  - Automation (AU)  
+  - Functional Requirements (FR)  
+  - Fault Tolerance (FT)  
+  - Look and Feel (LF)  
+  - Legal (LL)  
+  - Maintainability (M)  
+  - Operational (O)  
+  - Portability (P)  
+  - Performance (PE)  
+  - Reliability (R)  
+  - Scalability (SC)  
+  - Security (SE)  
+  - Usability (US)  
+
+- **Annotation Quality:** Each requirement was reviewed and labeled by a team of 5 software engineering experts.
+
+---
+
+## File Format  
+The dataset is provided in `.csv` format with the following columns:  
+- `Requirement_ID`: Unique identifier for each requirement.  
+- `Requirement_Text`: Text of the requirement.  
+- `Category`: The assigned class label.  
+
+---
+
+## Usage  
+This dataset is designed for:  
+- Classification of functional and non-functional requirements.  
+- Research in requirements engineering and software fault analysis.  
+- Development and testing of machine learning and deep learning models.  
+
+---
+
+## License  
+This dataset is distributed under the [MIT License](LICENSE). Please provide proper credit if you use this dataset in your research or projects.
+
+---
+
+## Contributors  
+- **[Your Name]** (Project Lead)  
+- **[Team Member 1]**  
+- **[Team Member 2]**  
+- **[Team Member 3]**  
+
+For inquiries, contact us at [Your Email].
+
+---
+
+## Citation  
+If you use this dataset in your work, please cite:  
+@dataset{FNFC_2024,
+author = {Your Name and Team},
+title = {Functional Non-Functional Classification Dataset (FNFC)},
+year = {2024},
+url = {https://github.com/mahdikabootari/Software-Requirements.git}
+}
